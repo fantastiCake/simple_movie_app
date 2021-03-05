@@ -6,16 +6,7 @@ function MovieDetail({ history, location: { state } }) {
     history.push("/");
     return null;
   } else {
-    const {
-      url,
-      title,
-      year,
-      rating,
-      genres,
-      summary,
-      mediumPosterUrl,
-      largePosterUrl,
-    } = state;
+    const { url, title, year, rating, genres, summary, largePosterUrl } = state;
     return (
       <div className="movie-detail">
         <div className="movie-detail__movie">
