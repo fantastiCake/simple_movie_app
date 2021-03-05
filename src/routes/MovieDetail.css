@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.movie-detail {
+  padding: 0 30px;
+  color: white;
+}
+
+.movie-detail__movie {
+  display: flex;
+}
+
+.movie-detail .movie__title-big {
+  margin-top: 180px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.movie-detail .movie__title {
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.movie-detail .movie__year-rating-genres-box {
+  color: rgb(175, 175, 175);
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.movie-detail .movie__genres {
+  display: flex;
+  gap: 10px;
+}
+
+.movie-detail .movie__summary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-detail .movie__link {
+  color: rgb(175, 175, 175);
+}

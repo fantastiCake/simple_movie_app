@@ -1,0 +1,18 @@
+.home .movies__movie {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 280px;
+}
+
+.home .movies__movie img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.home .movies__movie img:hover {
+  transform: scale(1.05);
+}
+
+.home a {
+  color: white;
+  font-size: 18px;
+}
