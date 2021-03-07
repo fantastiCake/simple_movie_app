@@ -36,7 +36,7 @@ function MovieDetail({ history, location: { state } }) {
               Link
             </a>
           </div>
-          <a href={url} target="_blank" rel="noreferrer">
+          <a href={url} target="_blank" rel="noreferrer" className="movie__poster-container">
             <img
               className="movie__posterUrl"
               src={largePosterUrl}
